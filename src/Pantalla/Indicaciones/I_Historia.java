@@ -135,7 +135,7 @@ public class I_Historia extends javax.swing.JFrame {
             if(Desktop.isDesktopSupported()){
                 Desktop desktop= Desktop.getDesktop();
                 if(desktop.isSupported(Desktop.Action.BROWSE)){
-                    desktop.browse(new URI("url"));
+                    desktop.browse(new URI(url));
                     
                 }
             }
